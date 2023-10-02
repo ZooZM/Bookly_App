@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import 'view/Splash_view.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -11,9 +13,9 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return GetMaterialApp(
-      home: splashview(),
-    )
+    return const GetMaterialApp(
+      home: Splash_view(),
+    );
 
   }
 }
