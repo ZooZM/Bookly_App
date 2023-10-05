@@ -9,6 +9,7 @@ class Book_Rate extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
+      mainAxisAlignment: MainAxisAlignment.center,
       children: [
         const Icon(
           Icons.star_rate_rounded,
