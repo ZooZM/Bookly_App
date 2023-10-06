@@ -5,8 +5,8 @@ import 'package:bookly_app/core/utils/Styles.dart';
 import 'package:bookly_app/core/utils/assets.dart';
 import 'package:flutter/material.dart';
 
-class Best_Seller_Card extends StatelessWidget {
-  const Best_Seller_Card({super.key});
+class BestSellerCard extends StatelessWidget {
+  const BestSellerCard({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -63,7 +63,7 @@ class Best_Seller_Card extends StatelessWidget {
                           .copyWith(fontWeight: FontWeight.bold),
                     ),
                    
-                    const Book_Rate()
+                    const BookRate()
                   ],
                 )
               ],

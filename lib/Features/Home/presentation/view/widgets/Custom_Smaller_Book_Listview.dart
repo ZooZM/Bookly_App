@@ -10,7 +10,6 @@ class CustomSmallerBookListview extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
-     
       physics: scrollPhysics?? const NeverScrollableScrollPhysics(),
       padding: EdgeInsets.zero,
       itemCount: 10,
@@ -20,7 +19,7 @@ class CustomSmallerBookListview extends StatelessWidget {
           onTap: () {
             GoRouter.of(context).push(AppRouter.kBookDetails);
           },
-          child: const Best_Seller_Card()),
+          child: const BestSellerCard()),
       ),
     );
   }

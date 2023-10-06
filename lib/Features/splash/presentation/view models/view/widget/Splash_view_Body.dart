@@ -5,14 +5,14 @@ import 'package:bookly_app/core/utils/assets.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
-class Splash_view_Body extends StatefulWidget {
-  const Splash_view_Body({super.key});
+class SplashviewBody extends StatefulWidget {
+  const SplashviewBody({super.key});
 
   @override
-  State<Splash_view_Body> createState() => _Splash_view_BodyState();
+  State<SplashviewBody> createState() => _SplashviewBodyState();
 }
 
-class _Splash_view_BodyState extends State<Splash_view_Body>
+class _SplashviewBodyState extends State<SplashviewBody>
     with SingleTickerProviderStateMixin {
   late AnimationController animationController;
   late Animation<Offset> slidinganimation;

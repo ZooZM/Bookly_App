@@ -4,8 +4,8 @@ import 'package:bookly_app/core/utils/app_router.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
-class Book_Card_Listview extends StatelessWidget {
-  const Book_Card_Listview({super.key});
+class BookCardListview extends StatelessWidget {
+  const BookCardListview({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -19,7 +19,7 @@ class Book_Card_Listview extends StatelessWidget {
                 onTap: () {
                   GoRouter.of(context).push(AppRouter.kBookDetails);
                 },
-                child: Book_Card()),
+                child: BookCard()),
             )));
   }
 }
