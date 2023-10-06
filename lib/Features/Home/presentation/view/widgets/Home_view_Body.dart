@@ -1,5 +1,5 @@
 import 'package:bookly_app/Features/Home/presentation/view/widgets/Book_Card_Listview.dart';
-import 'package:bookly_app/Features/Home/presentation/view/widgets/Book_Saller_Listview.dart';
+import 'package:bookly_app/Features/Home/presentation/view/widgets/Custom_Smaller_Book_Listview.dart';
 import 'package:bookly_app/Features/Home/presentation/view/widgets/Custom_App_Bar.dart';
 import 'package:flutter/material.dart';
 
@@ -34,7 +34,7 @@ class Home_View_Body extends StatelessWidget {
               ],
             ),
           ),
-          SliverFillRemaining(child: Book_Saller_Listview())
+          SliverFillRemaining(child: CustomSmallerBookListview())
         ],
       ),
     );
