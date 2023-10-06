@@ -24,9 +24,12 @@ class BookDetails extends StatelessWidget {
         const SizedBox(
           height: 4,
         ),
-        const Text(
-          'J.K. Rowling',
-          style: Styles.textStyle14,
+        const Opacity(
+          opacity: 0.7,
+          child:  Text(
+            'J.K. Rowling',
+            style: Styles.textStyle14,
+          ),
         ),
         const SizedBox(
           height: 10,

@@ -1,5 +1,5 @@
-
 import 'package:bookly_app/core/utils/Styles.dart';
+import 'package:bookly_app/core/widgets/CustomButtom.dart';
 import 'package:flutter/material.dart';
 
 class BookPrice extends StatelessWidget {
@@ -11,38 +11,36 @@ class BookPrice extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        Container(
+        SizedBox(
           height: 48,
-          width: width / 2,
-          decoration: const BoxDecoration(
-              color: Colors.white,
-              borderRadius: BorderRadius.only(
-                  topLeft: Radius.circular(18),
-                  bottomLeft: Radius.circular(18))),
-          child: Center(
-            child: Text(
+          width: width/2,
+          child: CusttomButtom(
+            title: Text(
               '19.99 €',
-              style: Styles.textStyle20
+              style: Styles.textStyle18
                   .copyWith(fontWeight: FontWeight.bold, color: Colors.black),
             ),
-          ),
-        ),
-        Container(
-          height: 48,
-          width: width / 2,
-          decoration: const BoxDecoration(
-              color: Color(0xFEF8262),
-              borderRadius: BorderRadius.only(
-                  topRight: Radius.circular(18),
-                  bottomRight: Radius.circular(18))),
-          child: Center(
-            child: Text(
-              'Free preview',
-              style: Styles.textStyle20
-                  .copyWith(fontWeight: FontWeight.bold, color: Colors.white),
+            color: Colors.white,
+            borderRadius: const BorderRadius.only(
+              topLeft: Radius.circular(12),
+              bottomLeft: Radius.circular(12),
             ),
           ),
-        )
+        ), 
+        SizedBox(
+          height: 48,
+          width: width/2,
+          child: CusttomButtom(
+            title: Text(
+              'Free preview',
+              style: Styles.textStyle18
+                  .copyWith(fontWeight: FontWeight.bold, color: Colors.white),
+            ),
+            color: const Color(0xffEF8262),
+            borderRadius: const BorderRadius.only(
+                topRight: Radius.circular(18), bottomRight: Radius.circular(18)),
+          ),
+        ),
       ],
     );
   }
