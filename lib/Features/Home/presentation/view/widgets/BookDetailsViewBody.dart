@@ -11,41 +11,52 @@ class BookDetailsViewBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        const BookDetailsAppBar(),
-        Center(
-          child: SizedBox(
-              height: MediaQuery.of(context).size.height * 0.29,
-              child: const Book_Card()),
-        ),
-        const SizedBox(
-          height: 43,
-        ),
-        const BookDetails(),
-        const SizedBox(
-          height: 30,
-        ),
-        const BookPrice(),
-        const SizedBox(
-          height: 50,
-        ),
-        const Padding(
-          padding: EdgeInsets.only(left: 30),
-          child: Text(
-            "You can also like",
-            style: Styles.textStyle14,
+    return CustomScrollView(
+      slivers: [
+        SliverFillRemaining(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              const BookDetailsAppBar(),
+              Center(
+                child: SizedBox(
+                    height: MediaQuery.of(context).size.height * 0.29,
+                    child: const Book_Card()),
+              ),
+              const SizedBox(
+                height: 43,
+              ),
+              const BookDetails(),
+              const SizedBox(
+                height: 30,
+              ),
+              const BookPrice(),
+              const Expanded(
+                child: SizedBox(
+                  height: 50,
+                ),
+              ),
+              const Padding(
+                padding: EdgeInsets.only(left: 30),
+                child: Text(
+                  "You can also like",
+                  style: Styles.textStyle14,
+                ),
+              ),
+              const SizedBox(
+                height: 15,
+              ),
+              Padding(
+                padding: const EdgeInsets.only(left: 25),
+                child: SizedBox(
+                    height: MediaQuery.of(context).size.height * 0.14,
+                    child: const SmallBookCard()),
+              ),
+              const SizedBox(
+                height: 40,
+              )
+            ],
           ),
-        ),
-        const SizedBox(
-          height: 15,
-        ),
-        Padding(
-          padding: const EdgeInsets.only(left: 25),
-          child: SizedBox(
-              height: MediaQuery.of(context).size.height * 0.14,
-              child: const SmallBookCard()),
         )
       ],
     );
