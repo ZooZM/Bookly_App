@@ -1,4 +1,3 @@
-
 import 'package:bookly_app/Features/Home/presentation/view/widgets/Book_Rate.dart';
 import 'package:bookly_app/constans.dart';
 import 'package:bookly_app/core/utils/Styles.dart';
@@ -41,7 +40,8 @@ class BestSellerCard extends StatelessWidget {
                     'Harry Potter and the Goblet of Fire',
                     maxLines: 2,
                     overflow: TextOverflow.ellipsis,
-                    style: Styles.textStyle20.copyWith(fontFamily: kGtSectraFine),
+                    style:
+                        Styles.textStyle20.copyWith(fontFamily: kGtSectraFine),
                   ),
                 ),
                 const SizedBox(
@@ -62,7 +62,6 @@ class BestSellerCard extends StatelessWidget {
                       style: Styles.textStyle20
                           .copyWith(fontWeight: FontWeight.bold),
                     ),
-                   
                     const BookRate()
                   ],
                 )

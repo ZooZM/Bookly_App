@@ -5,7 +5,7 @@ class CusttomButtom extends StatelessWidget {
     super.key,
     required this.title,
     required this.color,
-     this.borderRadius,
+    this.borderRadius,
   });
   final Text title;
   final Color color;
@@ -15,7 +15,7 @@ class CusttomButtom extends StatelessWidget {
     return TextButton(
       style: TextButton.styleFrom(
         shape: RoundedRectangleBorder(
-          borderRadius: borderRadius?? BorderRadius.circular(12),
+          borderRadius: borderRadius ?? BorderRadius.circular(12),
         ),
         backgroundColor: color,
       ),

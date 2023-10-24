@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 class SlidingText extends StatelessWidget {
@@ -13,7 +12,7 @@ class SlidingText extends StatelessWidget {
   Widget build(BuildContext context) {
     return AnimatedBuilder(
       animation: slidinganimation,
-      builder:(context, _) => SlideTransition(
+      builder: (context, _) => SlideTransition(
         position: slidinganimation,
         child: const Text(
           'Read Free Book',

@@ -1,4 +1,3 @@
-
 import 'package:bookly_app/Features/Home/presentation/view/widgets/Book_Rate.dart';
 import 'package:bookly_app/constans.dart';
 import 'package:bookly_app/core/utils/Styles.dart';
@@ -26,7 +25,7 @@ class BookDetails extends StatelessWidget {
         ),
         const Opacity(
           opacity: 0.7,
-          child:  Text(
+          child: Text(
             'J.K. Rowling',
             style: Styles.textStyle14,
           ),

@@ -13,7 +13,7 @@ class BookPrice extends StatelessWidget {
       children: [
         SizedBox(
           height: 48,
-          width: width/2,
+          width: width / 2,
           child: CusttomButtom(
             title: Text(
               '19.99 €',
@@ -26,10 +26,10 @@ class BookPrice extends StatelessWidget {
               bottomLeft: Radius.circular(12),
             ),
           ),
-        ), 
+        ),
         SizedBox(
           height: 48,
-          width: width/2,
+          width: width / 2,
           child: CusttomButtom(
             title: Text(
               'Free preview',
@@ -38,7 +38,8 @@ class BookPrice extends StatelessWidget {
             ),
             color: const Color(0xffEF8262),
             borderRadius: const BorderRadius.only(
-                topRight: Radius.circular(18), bottomRight: Radius.circular(18)),
+                topRight: Radius.circular(18),
+                bottomRight: Radius.circular(18)),
           ),
         ),
       ],

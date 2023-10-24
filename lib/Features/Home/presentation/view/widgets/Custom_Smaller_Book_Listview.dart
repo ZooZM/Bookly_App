@@ -1,4 +1,3 @@
-
 import 'package:bookly_app/Features/Home/presentation/view/widgets/Best_Seller_Card.dart';
 import 'package:bookly_app/core/utils/app_router.dart';
 import 'package:flutter/material.dart';
@@ -10,16 +9,16 @@ class CustomSmallerBookListview extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
-      physics: scrollPhysics?? const NeverScrollableScrollPhysics(),
+      physics: scrollPhysics ?? const NeverScrollableScrollPhysics(),
       padding: EdgeInsets.zero,
       itemCount: 10,
-      itemBuilder: (context, index) =>  Padding(
+      itemBuilder: (context, index) => Padding(
         padding: const EdgeInsets.symmetric(vertical: 10),
         child: GestureDetector(
-          onTap: () {
-            GoRouter.of(context).push(AppRouter.kBookDetails);
-          },
-          child: const BestSellerCard()),
+            onTap: () {
+              GoRouter.of(context).push(AppRouter.kBookDetails);
+            },
+            child: const BestSellerCard()),
       ),
     );
   }

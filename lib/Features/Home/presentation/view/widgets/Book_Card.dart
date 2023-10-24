@@ -10,13 +10,10 @@ class BookCard extends StatelessWidget {
       aspectRatio: 0.66,
       child: Container(
         decoration: BoxDecoration(
-          image: const DecorationImage(
-            image: AssetImage(AssetsData.book),
-            fit: BoxFit.fill
-            ),
-          color: Colors.blue,
-          borderRadius: BorderRadius.circular(16)
-        ),
+            image: const DecorationImage(
+                image: AssetImage(AssetsData.book), fit: BoxFit.fill),
+            color: Colors.blue,
+            borderRadius: BorderRadius.circular(16)),
       ),
     );
   }
