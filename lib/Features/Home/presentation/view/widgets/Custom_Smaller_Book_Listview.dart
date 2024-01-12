@@ -4,12 +4,12 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
 class CustomSmallerBookListview extends StatelessWidget {
-  const CustomSmallerBookListview({super.key, this.scrollPhysics});
-  final ScrollPhysics? scrollPhysics;
+  const CustomSmallerBookListview({super.key});
+
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
-      physics: scrollPhysics ?? const NeverScrollableScrollPhysics(),
+      physics: const NeverScrollableScrollPhysics(),
       padding: EdgeInsets.zero,
       itemCount: 10,
       itemBuilder: (context, index) => Padding(

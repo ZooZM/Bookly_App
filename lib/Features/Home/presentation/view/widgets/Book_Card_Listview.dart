@@ -18,7 +18,7 @@ class BookCardListview extends StatelessWidget {
                       onTap: () {
                         GoRouter.of(context).push(AppRouter.kBookDetails);
                       },
-                      child: BookCard()),
+                      child: const BookCard()),
                 )));
   }
 }
