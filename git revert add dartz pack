@@ -1,0 +1,131 @@
+[33mcommit 8d6d18e43a7313ee6291bbe2aa7c2b98daab283b[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: zeyad mostafa <142641321+ZooZM@users.noreply.github.com>
+Date:   Tue Oct 24 15:36:21 2023 +0300
+
+    add dartz pack
+
+[33mcommit 78ec408d801d8704dd227ef2fac2d06ffe381dab[m
+Author: zeyad mostafa <142641321+ZooZM@users.noreply.github.com>
+Date:   Tue Oct 24 13:48:26 2023 +0300
+
+    add bookModel
+
+[33mcommit 3e609bb072e052f385abac72e3c78a8651c80646[m
+Author: zeyad mostafa <142641321+ZooZM@users.noreply.github.com>
+Date:   Fri Oct 6 12:17:10 2023 +0300
+
+    rename some widget
+
+[33mcommit fc35374a19656a7d056ef95ab8899bce9191d530[m
+Author: zeyad mostafa <142641321+ZooZM@users.noreply.github.com>
+Date:   Fri Oct 6 12:10:45 2023 +0300
+
+    add Search Result text
+
+[33mcommit e617b9ba2f2ea486bf28af16192b6f1480588472[m
+Author: zeyad mostafa <142641321+ZooZM@users.noreply.github.com>
+Date:   Fri Oct 6 12:04:45 2023 +0300
+
+    add result search listview
+
+[33mcommit 7e52447965bf9f0344e9dab6704f78510e5fda42[m
+Author: zeyad mostafa <142641321+ZooZM@users.noreply.github.com>
+Date:   Fri Oct 6 11:56:02 2023 +0300
+
+    create searvh view and search textfield
+
+[33mcommit 25e7762658e2410f8c92e4ee49bf78b24c914b45[m
+Author: zeyad mostafa <142641321+ZooZM@users.noreply.github.com>
+Date:   Fri Oct 6 10:38:56 2023 +0300
+
+    finish book details ui
+
+[33mcommit 45c49f7ad93da766c2e244adf48998f7116e389a[m
+Author: zeyad mostafa <142641321+ZooZM@users.noreply.github.com>
+Date:   Thu Oct 5 16:18:33 2023 +0300
+
+    add bookdetails and book price
+
+[33mcommit 13ac6d1de84da9d0e498f70b9d35da0f96febb3a[m
+Author: zeyad mostafa <142641321+ZooZM@users.noreply.github.com>
+Date:   Thu Oct 5 09:24:27 2023 +0300
+
+    create BookDetailsViewBody whit appbar
+
+[33mcommit a6ecc2629814d1b125754453dc82ecf0c12ba80a[m
+Author: zeyad mostafa <142641321+ZooZM@users.noreply.github.com>
+Date:   Wed Oct 4 19:04:44 2023 +0300
+
+    add approuter
+
+[33mcommit 21cccb9f9312f5ef04c8b0fe3f4cba40362436a4[m
+Author: zeyad mostafa <142641321+ZooZM@users.noreply.github.com>
+Date:   Wed Oct 4 18:38:38 2023 +0300
+
+    finish home UI (1)
+
+[33mcommit c430dbdfd4c6c83b3a56907c9a0349a7dacc8a8e[m
+Author: zeyad mostafa <142641321+ZooZM@users.noreply.github.com>
+Date:   Wed Oct 4 18:24:46 2023 +0300
+
+    finsh best saller card
+
+[33mcommit 44a3be67028c41d5f35e56acfef867c335c89253[m
+Author: zeyad mostafa <142641321+ZooZM@users.noreply.github.com>
+Date:   Wed Oct 4 17:10:53 2023 +0300
+
+    add styles
+
+[33mcommit f08b3596ec105572758bb4fcb5b2f42c613e0472[m
+Author: zeyad mostafa <142641321+ZooZM@users.noreply.github.com>
+Date:   Tue Oct 3 14:50:10 2023 +0300
+
+    create Book Card
+
+[33mcommit f98c9da0881f8eb2dc5a62099c0131fec5a413e8[m
+Author: zeyad mostafa <142641321+ZooZM@users.noreply.github.com>
+Date:   Tue Oct 3 06:00:17 2023 +0300
+
+    add customappbar
+
+[33mcommit 09e602130bd2f23ae1d368ef7464050c034ed929[m
+Author: zeyad mostafa <142641321+ZooZM@users.noreply.github.com>
+Date:   Tue Oct 3 05:30:46 2023 +0300
+
+    refactor init state splashbody and create Homeview
+
+[33mcommit c3fb4007fe88089037768fd3d2a1167aa50dc515[m
+Author: zeyad mostafa <142641321+ZooZM@users.noreply.github.com>
+Date:   Tue Oct 3 05:01:51 2023 +0300
+
+    exract SlidingText
+
+[33mcommit 4f58062c2191e8d4334e5a058c711e0e750e104b[m
+Author: zeyad mostafa <142641321+ZooZM@users.noreply.github.com>
+Date:   Mon Oct 2 17:04:17 2023 +0300
+
+    add Text in splash view
+
+[33mcommit 1385ca02567bba652e16a043cf939e9528e4aff4[m
+Author: zeyad mostafa <142641321+ZooZM@users.noreply.github.com>
+Date:   Mon Oct 2 16:36:55 2023 +0300
+
+    finish splash ui
+
+[33mcommit 4194322849b3dd261cb8fcce383409ad23a4b213[m
+Author: zeyad mostafa <142641321+ZooZM@users.noreply.github.com>
+Date:   Mon Oct 2 15:55:37 2023 +0300
+
+    create splsh_view
+
+[33mcommit 06493749d4fd54a9ba94508aa24a73846ab96dcf[m
+Author: zeyad mostafa <142641321+ZooZM@users.noreply.github.com>
+Date:   Mon Oct 2 15:41:02 2023 +0300
+
+    creat project
+
+[33mcommit 2e10b7d5efa6f3bb3440781548a223a8048dab2b[m
+Author: zeyad mostafa <142641321+ZooZM@users.noreply.github.com>
+Date:   Mon Oct 2 15:37:08 2023 +0300
+
+    first commit
