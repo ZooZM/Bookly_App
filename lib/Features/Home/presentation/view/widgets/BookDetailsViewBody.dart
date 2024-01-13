@@ -21,7 +21,10 @@ class BookDetailsViewBody extends StatelessWidget {
               Center(
                 child: SizedBox(
                     height: MediaQuery.of(context).size.height * 0.29,
-                    child: const BookCard()),
+                    child: const BookCard(
+                      imageUrl:
+                          'https://th.bing.com/th/id/R.52406f9fd62de6271fb76e372115cd3b?rik=IyT1%2fVhksFcmXQ&riu=http%3a%2f%2fradiusblocks.com%2fwp-content%2fuploads%2f2022%2f09%2fimage-grid_5.jpg&ehk=J60uhjobAJSrVLuIJuQHckdkUSobwjLg%2bdQqCRVmaik%3d&risl=&pid=ImgRaw&r=0',
+                    )),
               ),
               const SizedBox(
                 height: 43,
