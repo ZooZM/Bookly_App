@@ -6,9 +6,11 @@ class CustomFailureMessage extends StatelessWidget {
   final String mess;
   @override
   Widget build(BuildContext context) {
-    return Text(
-      mess,
-      style: Styles.textStyle20,
+    return Center(
+      child: Text(
+        mess,
+        style: Styles.textStyle20,
+      ),
     );
   }
 }

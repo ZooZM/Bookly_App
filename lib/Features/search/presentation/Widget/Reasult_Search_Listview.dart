@@ -1,4 +1,4 @@
-import 'package:bookly_app/Features/Home/presentation/view/widgets/Custom_Smaller_Book_Listview.dart';
+import 'package:bookly_app/Features/Home/presentation/view/widgets/Newest_Books_Listview.dart';
 import 'package:flutter/material.dart';
 
 class ResultSearchListview extends StatelessWidget {
@@ -6,6 +6,6 @@ class ResultSearchListview extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const CustomSmallerBookListview();
+    return const NewestBooksListview();
   }
 }

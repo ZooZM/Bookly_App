@@ -4,8 +4,11 @@ import 'package:flutter/material.dart';
 class BookRate extends StatelessWidget {
   const BookRate({
     super.key,
+    required this.avrRat,
+    required this.ratCount,
   });
-
+  final double avrRat;
+  final int ratCount;
   @override
   Widget build(BuildContext context) {
     return Row(
@@ -19,15 +22,15 @@ class BookRate extends StatelessWidget {
           width: 3,
         ),
         Text(
-          '4.8',
+          avrRat.toString(),
           style: Styles.textStyle16
               .copyWith(fontWeight: FontWeight.bold, fontFamily: 'montserrat'),
         ),
         const SizedBox(
           width: 9,
         ),
-        const Text(
-          "(2390)",
+        Text(
+          '($ratCount)',
           style: Styles.textStyle14,
         ),
       ],

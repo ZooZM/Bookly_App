@@ -33,7 +33,10 @@ class BookDetails extends StatelessWidget {
         const SizedBox(
           height: 10,
         ),
-        const BookRate()
+        const BookRate(
+          avrRat: 145,
+          ratCount: 56,
+        )
       ],
     );
   }
