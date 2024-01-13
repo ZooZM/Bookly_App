@@ -1,6 +1,4 @@
-import 'package:bookly_app/Features/Home/data/models/book_model/book_model.dart';
 import 'package:bookly_app/Features/Home/presentation/view/widgets/Book_Card.dart';
-import 'package:bookly_app/Features/Home/presentation/view/widgets/Book_Card_Listview.dart';
 import 'package:bookly_app/Features/Home/presentation/view/widgets/Custom_Smaller_Book_Listview.dart';
 import 'package:bookly_app/Features/Home/presentation/view/widgets/Custom_App_Bar.dart';
 import 'package:bookly_app/Features/Home/presentation/view_Model/featured_books_cubit/featured_books_cubit.dart';
@@ -39,12 +37,13 @@ class HomeViewBody extends StatelessWidget {
                               onTap: () {
                                 GoRouter.of(context).push(
                                   AppRouter.kBookDetails,
-                                  extra: {'yourKey': 'yourStringValue'},
                                 );
                               },
                               child: BookCard(
-                                  imageUrl: state.books[index].volumeInfo
-                                      .imageLinks.thumbnail),
+                                imageUrl: state.books[index].volumeInfo
+                                        .imageLinks?.thumbnail ??
+                                    '',
+                              ),
                             ),
                           ),
                         ),
